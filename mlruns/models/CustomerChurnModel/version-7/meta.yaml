@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1749028576742
+current_stage: None
+description: null
+last_updated_timestamp: 1749028576742
+name: CustomerChurnModel
+run_id: b22008155513460eba397f164c981207
+run_link: null
+source: file:///Users/neeraj/basic_ml_project/mlruns/244078162885920823/b22008155513460eba397f164c981207/artifacts/best_model
+status: READY
+status_message: null
+storage_location: file:///Users/neeraj/basic_ml_project/mlruns/244078162885920823/b22008155513460eba397f164c981207/artifacts/best_model
+user_id: null
+version: 7

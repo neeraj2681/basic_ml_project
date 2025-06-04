@@ -1,0 +1,21 @@
+2025-06-03 14:35:22,470 - SklearnModel - INFO - Initializing SklearnModel with LogisticRegression
+2025-06-03 14:35:22,470 - SklearnModel - INFO - Training LogisticRegression
+2025-06-03 14:35:22,549 - SklearnModel - INFO - Initializing SklearnModel with LogisticRegression
+2025-06-03 14:35:22,549 - SklearnModel - INFO - Initializing SklearnModel with LogisticRegression
+2025-06-03 14:35:22,549 - SklearnModel - INFO - Initializing SklearnModel with RandomForestClassifier
+2025-06-03 14:35:22,549 - SklearnModel - INFO - Initializing SklearnModel with RandomForestClassifier
+2025-06-03 14:35:22,549 - SklearnModel - INFO - Initializing SklearnModel with RandomForestClassifier
+2025-06-03 14:35:22,549 - SklearnModel - INFO - Initializing SklearnModel with GradientBoostingClassifier
+2025-06-03 14:35:22,549 - SklearnModel - INFO - Initializing SklearnModel with GradientBoostingClassifier
+2025-06-03 14:35:22,549 - SklearnModel - INFO - Initializing SklearnModel with GradientBoostingClassifier
+2025-06-03 14:35:22,549 - SklearnModel - INFO - Initializing SklearnModel with GradientBoostingClassifier
+2025-06-03 14:35:22,549 - SklearnModel - INFO - Initializing SklearnModel with SVC
+2025-06-03 14:35:22,549 - SklearnModel - INFO - Initializing SklearnModel with SVC
+2025-06-03 14:35:22,549 - SklearnModel - INFO - Initializing SklearnModel with SVC
+2025-06-03 14:35:22,549 - SklearnModel - INFO - Initializing SklearnModel with SVC
+2025-06-03 14:35:22,549 - SklearnModel - INFO - Initializing SklearnModel with SVC
+2025-06-03 14:35:22,551 - SklearnModel - INFO - Training LogisticRegression
+2025-06-03 14:35:22,551 - SklearnModel - INFO - Training LogisticRegression
+2025-06-03 14:35:22,551 - SklearnModel - INFO - Training LogisticRegression
+2025-06-03 14:35:22,551 - SklearnModel - INFO - Training LogisticRegression
+2025-06-03 14:35:22,551 - SklearnModel - INFO - Training LogisticRegression

@@ -1,0 +1,24 @@
+2025-06-04 15:00:28,790 - StandardDataPreprocessor - INFO - Initializing StandardDataPreprocessor
+2025-06-04 15:00:28,790 - StandardDataPreprocessor - INFO - Starting data preprocessing
+2025-06-04 15:00:28,790 - StandardDataPreprocessor - INFO - Dropping customer_id column
+2025-06-04 15:00:28,790 - StandardDataPreprocessor - INFO - Handling missing values
+2025-06-04 15:00:28,790 - StandardDataPreprocessor - DEBUG - Handling missing values
+2025-06-04 15:00:28,791 - StandardDataPreprocessor - INFO - Filling 5 missing values in total_charges with median
+2025-06-04 15:00:28,794 - StandardDataPreprocessor - INFO - Filling 5 missing values in payment_method with mode
+2025-06-04 15:00:28,795 - StandardDataPreprocessor - INFO - Encoding categorical variables
+2025-06-04 15:00:28,795 - StandardDataPreprocessor - DEBUG - Encoding categorical variables
+2025-06-04 15:00:28,796 - StandardDataPreprocessor - INFO - Encoding categorical column: contract_type
+2025-06-04 15:00:28,796 - StandardDataPreprocessor - INFO - Encoding categorical column: payment_method
+2025-06-04 15:00:28,796 - StandardDataPreprocessor - INFO - Encoding categorical column: paperless_billing
+2025-06-04 15:00:28,796 - StandardDataPreprocessor - INFO - Encoding categorical column: internet_service
+2025-06-04 15:00:28,796 - StandardDataPreprocessor - INFO - Encoding categorical column: online_security
+2025-06-04 15:00:28,797 - StandardDataPreprocessor - INFO - Encoding categorical column: online_backup
+2025-06-04 15:00:28,797 - StandardDataPreprocessor - INFO - Encoding categorical column: device_protection
+2025-06-04 15:00:28,797 - StandardDataPreprocessor - INFO - Encoding categorical column: tech_support
+2025-06-04 15:00:28,797 - StandardDataPreprocessor - INFO - Encoding categorical column: streaming_tv
+2025-06-04 15:00:28,797 - StandardDataPreprocessor - INFO - Encoding categorical column: streaming_movies
+2025-06-04 15:00:28,798 - StandardDataPreprocessor - INFO - Encoding target column: churn
+2025-06-04 15:00:28,798 - StandardDataPreprocessor - INFO - Scaling numerical variables
+2025-06-04 15:00:28,798 - StandardDataPreprocessor - DEBUG - Scaling numerical variables
+2025-06-04 15:00:28,798 - StandardDataPreprocessor - INFO - Scaling 13 numerical columns
+2025-06-04 15:00:28,801 - StandardDataPreprocessor - INFO - Preprocessing completed successfully

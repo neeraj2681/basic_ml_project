@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/neeraj/basic_ml_project/mlruns/244078162885920823/e86c68b1c9ef4b7eb5e151a3ec268ec8/artifacts
+end_time: 1749028428734
+entry_point_name: ''
+experiment_id: '244078162885920823'
+lifecycle_stage: active
+run_id: e86c68b1c9ef4b7eb5e151a3ec268ec8
+run_name: svm
+run_uuid: e86c68b1c9ef4b7eb5e151a3ec268ec8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749028428717
+status: 3
+tags: []
+user_id: neeraj

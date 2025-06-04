@@ -1,0 +1,6 @@
+artifact_location: file:///Users/neeraj/basic_ml_project/mlruns/244078162885920823
+creation_time: 1749020486059
+experiment_id: '244078162885920823'
+last_update_time: 1749020486059
+lifecycle_stage: active
+name: CustomerChurnPipeline

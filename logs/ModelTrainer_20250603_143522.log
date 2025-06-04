@@ -1,0 +1,5 @@
+2025-06-03 14:35:22,549 - ModelTrainer - INFO - Initialized ModelTrainer with 4 models
+2025-06-03 14:35:22,549 - ModelTrainer - INFO - Starting model training and evaluation
+2025-06-03 14:35:22,551 - ModelTrainer - INFO - Split data into train (4 samples) and test (1 samples) sets
+2025-06-03 14:35:22,551 - ModelTrainer - INFO - 
+Training and evaluating logistic_regression

@@ -1,0 +1,6 @@
+customer_id,tenure,monthly_charges,total_charges,contract_type,payment_method,paperless_billing,internet_service,online_security,online_backup,device_protection,tech_support,streaming_tv,streaming_movies,churn
+CUST000000,1,50,50,Month-to-month,Electronic check,Yes,DSL,Yes,No,Yes,No,Yes,No,No
+CUST000001,12,65,780,One year,Bank transfer,No,Fiber optic,No,Yes,No,Yes,No,Yes,No
+CUST000002,24,80,1920,Two year,Credit card,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Yes
+CUST000003,36,95,3420,Month-to-month,Mailed check,No,DSL,Yes,Yes,No,Yes,No,Yes,Yes
+CUST000004,48,110,5280,One year,Electronic check,Yes,Fiber optic,No,No,Yes,No,Yes,No,No

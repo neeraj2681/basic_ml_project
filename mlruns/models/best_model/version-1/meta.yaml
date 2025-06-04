@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1749019717365
+current_stage: None
+description: ''
+last_updated_timestamp: 1749019717365
+name: best_model
+run_id: 44e33d66cee34c898c5528eecd8330d9
+run_link: ''
+source: file:///Users/neeraj/basic_ml_project/mlruns/683292625981046149/44e33d66cee34c898c5528eecd8330d9/artifacts/best_model
+status: READY
+status_message: null
+storage_location: file:///Users/neeraj/basic_ml_project/mlruns/683292625981046149/44e33d66cee34c898c5528eecd8330d9/artifacts/best_model
+user_id: null
+version: 1

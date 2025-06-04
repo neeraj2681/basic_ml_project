@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/neeraj/basic_ml_project/mlruns/244078162885920823/7d7d34dc5d7b4bdf987cd2ae6c8389aa/artifacts
+end_time: 1749028099594
+entry_point_name: ''
+experiment_id: '244078162885920823'
+lifecycle_stage: active
+run_id: 7d7d34dc5d7b4bdf987cd2ae6c8389aa
+run_name: random_forest
+run_uuid: 7d7d34dc5d7b4bdf987cd2ae6c8389aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749028099576
+status: 3
+tags: []
+user_id: neeraj

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/neeraj/basic_ml_project/mlruns/244078162885920823/5dbeba55339e4edb90dda70e3bf4bede/artifacts
+end_time: 1749028261815
+entry_point_name: ''
+experiment_id: '244078162885920823'
+lifecycle_stage: active
+run_id: 5dbeba55339e4edb90dda70e3bf4bede
+run_name: ambitious-mink-504
+run_uuid: 5dbeba55339e4edb90dda70e3bf4bede
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749028249236
+status: 3
+tags: []
+user_id: neeraj

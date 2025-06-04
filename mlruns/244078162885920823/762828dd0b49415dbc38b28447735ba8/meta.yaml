@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/neeraj/basic_ml_project/mlruns/244078162885920823/762828dd0b49415dbc38b28447735ba8/artifacts
+end_time: 1749026334465
+entry_point_name: ''
+experiment_id: '244078162885920823'
+lifecycle_stage: active
+run_id: 762828dd0b49415dbc38b28447735ba8
+run_name: enthused-moth-266
+run_uuid: 762828dd0b49415dbc38b28447735ba8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749026320786
+status: 3
+tags: []
+user_id: neeraj

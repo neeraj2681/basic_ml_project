@@ -1,0 +1,18 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="basic_ml_project",
+    version="0.1",
+    packages=find_packages(),
+    install_requires=[
+        "numpy==1.24.3",
+        "pandas==2.0.3",
+        "scikit-learn==1.3.0",
+        "matplotlib==3.7.2",
+        "seaborn==0.12.2",
+        "pytest==7.4.0",
+        "python-dotenv==1.0.0",
+        "joblib==1.3.1",
+        "mlflow==2.13.0"
+    ],
+) 

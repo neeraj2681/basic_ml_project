@@ -1,0 +1,8 @@
+2025-06-04 14:50:16,617 - StandardDataPreprocessor - INFO - Initializing StandardDataPreprocessor
+2025-06-04 14:50:16,617 - StandardDataPreprocessor - INFO - Starting data preprocessing
+2025-06-04 14:50:16,617 - StandardDataPreprocessor - INFO - Dropping customer_id column
+2025-06-04 14:50:16,618 - StandardDataPreprocessor - INFO - Handling missing values
+2025-06-04 14:50:16,618 - StandardDataPreprocessor - DEBUG - Handling missing values
+2025-06-04 14:50:16,619 - StandardDataPreprocessor - INFO - Filling 5 missing values in total_charges with median
+2025-06-04 14:50:16,621 - StandardDataPreprocessor - INFO - Filling 5 missing values in payment_method with mode
+2025-06-04 14:50:16,622 - StandardDataPreprocessor - ERROR - Preprocessing failed: 0

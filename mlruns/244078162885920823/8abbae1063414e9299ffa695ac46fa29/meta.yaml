@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/neeraj/basic_ml_project/mlruns/244078162885920823/8abbae1063414e9299ffa695ac46fa29/artifacts
+end_time: 1749031415279
+entry_point_name: ''
+experiment_id: '244078162885920823'
+lifecycle_stage: active
+run_id: 8abbae1063414e9299ffa695ac46fa29
+run_name: auspicious-swan-404
+run_uuid: 8abbae1063414e9299ffa695ac46fa29
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749031403013
+status: 3
+tags: []
+user_id: neeraj

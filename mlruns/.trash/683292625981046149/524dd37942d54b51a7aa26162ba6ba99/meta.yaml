@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/neeraj/basic_ml_project/mlruns/683292625981046149/524dd37942d54b51a7aa26162ba6ba99/artifacts
+deleted_time: 1749020465814
+end_time: 1749019925840
+entry_point_name: ''
+experiment_id: '683292625981046149'
+lifecycle_stage: deleted
+run_id: 524dd37942d54b51a7aa26162ba6ba99
+run_name: casual-newt-358
+run_uuid: 524dd37942d54b51a7aa26162ba6ba99
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749019913379
+status: 3
+tags: []
+user_id: neeraj

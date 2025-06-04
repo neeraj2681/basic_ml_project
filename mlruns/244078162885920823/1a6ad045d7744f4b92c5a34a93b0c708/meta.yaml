@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/neeraj/basic_ml_project/mlruns/244078162885920823/1a6ad045d7744f4b92c5a34a93b0c708/artifacts
+end_time: 1749028096831
+entry_point_name: ''
+experiment_id: '244078162885920823'
+lifecycle_stage: active
+run_id: 1a6ad045d7744f4b92c5a34a93b0c708
+run_name: logistic_regression
+run_uuid: 1a6ad045d7744f4b92c5a34a93b0c708
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749028096812
+status: 3
+tags: []
+user_id: neeraj
