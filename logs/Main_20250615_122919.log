@@ -1,0 +1,34 @@
+2025-06-15 12:29:19,804 - Main - INFO - Starting ML pipeline (MLflow run: 916aa91d59c446c1b1a9d1be1e370bce)
+2025-06-15 12:29:19,804 - Main - INFO - Generating customer churn dataset
+2025-06-15 12:29:19,816 - Main - INFO - Dataset saved to 'data/customer_churn_data.csv'
+2025-06-15 12:29:19,816 - Main - INFO - Initializing pipeline components
+2025-06-15 12:29:19,818 - Main - INFO - Loading and preprocessing data
+2025-06-15 12:29:19,836 - Main - INFO - Starting model training and evaluation
+2025-06-15 12:29:27,384 - Main - INFO - Model Evaluation Results:
+2025-06-15 12:29:27,384 - Main - INFO - 
+LOGISTIC_REGRESSION:
+2025-06-15 12:29:27,384 - Main - INFO - accuracy: 0.7300
+2025-06-15 12:29:27,384 - Main - INFO - precision: 0.7115
+2025-06-15 12:29:27,385 - Main - INFO - recall: 0.7300
+2025-06-15 12:29:27,385 - Main - INFO - f1: 0.7084
+2025-06-15 12:29:27,385 - Main - INFO - 
+RANDOM_FOREST:
+2025-06-15 12:29:27,385 - Main - INFO - accuracy: 0.7000
+2025-06-15 12:29:27,385 - Main - INFO - precision: 0.6777
+2025-06-15 12:29:27,385 - Main - INFO - recall: 0.7000
+2025-06-15 12:29:27,385 - Main - INFO - f1: 0.6813
+2025-06-15 12:29:27,385 - Main - INFO - 
+GRADIENT_BOOSTING:
+2025-06-15 12:29:27,385 - Main - INFO - accuracy: 0.6750
+2025-06-15 12:29:27,385 - Main - INFO - precision: 0.6547
+2025-06-15 12:29:27,385 - Main - INFO - recall: 0.6750
+2025-06-15 12:29:27,385 - Main - INFO - f1: 0.6610
+2025-06-15 12:29:27,385 - Main - INFO - 
+SVM:
+2025-06-15 12:29:27,385 - Main - INFO - accuracy: 0.7100
+2025-06-15 12:29:27,385 - Main - INFO - precision: 0.6845
+2025-06-15 12:29:27,385 - Main - INFO - recall: 0.7100
+2025-06-15 12:29:27,385 - Main - INFO - f1: 0.6811
+2025-06-15 12:29:27,387 - Main - INFO - Preprocessor saved to 'models/preprocessor.joblib'
+2025-06-15 12:29:27,388 - Main - INFO - Best model saved to 'models/best_model.joblib'
+2025-06-15 12:29:30,629 - Main - INFO - ML pipeline completed successfully

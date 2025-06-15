@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/neeraj/basic_ml_project/mlruns/174311403119682599/3ca5af5e493c40ae92cd2a37aca24b6e/artifacts
+end_time: 1749975816880
+entry_point_name: ''
+experiment_id: '174311403119682599'
+lifecycle_stage: active
+run_id: 3ca5af5e493c40ae92cd2a37aca24b6e
+run_name: powerful-snail-357
+run_uuid: 3ca5af5e493c40ae92cd2a37aca24b6e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749975798730
+status: 3
+tags: []
+user_id: neeraj

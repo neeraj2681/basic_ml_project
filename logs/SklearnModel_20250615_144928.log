@@ -1,0 +1,90 @@
+2025-06-15 14:49:28,145 - SklearnModel - INFO - Initializing SklearnModel with LogisticRegression
+2025-06-15 14:49:28,145 - SklearnModel - INFO - Initializing SklearnModel with RandomForestClassifier
+2025-06-15 14:49:28,145 - SklearnModel - INFO - Initializing SklearnModel with RandomForestClassifier
+2025-06-15 14:49:28,145 - SklearnModel - INFO - Initializing SklearnModel with GradientBoostingClassifier
+2025-06-15 14:49:28,145 - SklearnModel - INFO - Initializing SklearnModel with GradientBoostingClassifier
+2025-06-15 14:49:28,145 - SklearnModel - INFO - Initializing SklearnModel with GradientBoostingClassifier
+2025-06-15 14:49:28,145 - SklearnModel - INFO - Initializing SklearnModel with SVC
+2025-06-15 14:49:28,145 - SklearnModel - INFO - Initializing SklearnModel with SVC
+2025-06-15 14:49:28,145 - SklearnModel - INFO - Initializing SklearnModel with SVC
+2025-06-15 14:49:28,145 - SklearnModel - INFO - Initializing SklearnModel with SVC
+2025-06-15 14:49:28,170 - SklearnModel - INFO - Training LogisticRegression
+2025-06-15 14:49:28,170 - SklearnModel - INFO - Training LogisticRegression
+2025-06-15 14:49:28,170 - SklearnModel - INFO - Training LogisticRegression
+2025-06-15 14:49:28,170 - SklearnModel - INFO - Training LogisticRegression
+2025-06-15 14:49:32,601 - SklearnModel - INFO - Training completed
+2025-06-15 14:49:32,601 - SklearnModel - INFO - Training completed
+2025-06-15 14:49:32,601 - SklearnModel - INFO - Training completed
+2025-06-15 14:49:32,601 - SklearnModel - INFO - Training completed
+2025-06-15 14:49:32,601 - SklearnModel - INFO - Evaluating model performance
+2025-06-15 14:49:32,601 - SklearnModel - INFO - Evaluating model performance
+2025-06-15 14:49:32,601 - SklearnModel - INFO - Evaluating model performance
+2025-06-15 14:49:32,601 - SklearnModel - INFO - Evaluating model performance
+2025-06-15 14:49:32,602 - SklearnModel - DEBUG - Making predictions
+2025-06-15 14:49:32,602 - SklearnModel - DEBUG - Making predictions
+2025-06-15 14:49:32,602 - SklearnModel - DEBUG - Making predictions
+2025-06-15 14:49:32,602 - SklearnModel - DEBUG - Making predictions
+2025-06-15 14:49:32,616 - SklearnModel - INFO - Evaluation metrics: {'accuracy': 0.73, 'precision': 0.7115204678362573, 'recall': 0.73, 'f1': 0.7084}
+2025-06-15 14:49:32,616 - SklearnModel - INFO - Evaluation metrics: {'accuracy': 0.73, 'precision': 0.7115204678362573, 'recall': 0.73, 'f1': 0.7084}
+2025-06-15 14:49:32,616 - SklearnModel - INFO - Evaluation metrics: {'accuracy': 0.73, 'precision': 0.7115204678362573, 'recall': 0.73, 'f1': 0.7084}
+2025-06-15 14:49:32,616 - SklearnModel - INFO - Evaluation metrics: {'accuracy': 0.73, 'precision': 0.7115204678362573, 'recall': 0.73, 'f1': 0.7084}
+2025-06-15 14:49:32,634 - SklearnModel - INFO - Training RandomForestClassifier
+2025-06-15 14:49:32,634 - SklearnModel - INFO - Training RandomForestClassifier
+2025-06-15 14:49:32,634 - SklearnModel - INFO - Training RandomForestClassifier
+2025-06-15 14:49:32,634 - SklearnModel - INFO - Training RandomForestClassifier
+2025-06-15 14:49:35,725 - SklearnModel - INFO - Training completed
+2025-06-15 14:49:35,725 - SklearnModel - INFO - Training completed
+2025-06-15 14:49:35,725 - SklearnModel - INFO - Training completed
+2025-06-15 14:49:35,725 - SklearnModel - INFO - Training completed
+2025-06-15 14:49:35,725 - SklearnModel - INFO - Evaluating model performance
+2025-06-15 14:49:35,725 - SklearnModel - INFO - Evaluating model performance
+2025-06-15 14:49:35,725 - SklearnModel - INFO - Evaluating model performance
+2025-06-15 14:49:35,725 - SklearnModel - INFO - Evaluating model performance
+2025-06-15 14:49:35,725 - SklearnModel - DEBUG - Making predictions
+2025-06-15 14:49:35,725 - SklearnModel - DEBUG - Making predictions
+2025-06-15 14:49:35,725 - SklearnModel - DEBUG - Making predictions
+2025-06-15 14:49:35,725 - SklearnModel - DEBUG - Making predictions
+2025-06-15 14:49:35,757 - SklearnModel - INFO - Evaluation metrics: {'accuracy': 0.7, 'precision': 0.677697408077155, 'recall': 0.7, 'f1': 0.6812889812889813}
+2025-06-15 14:49:35,757 - SklearnModel - INFO - Evaluation metrics: {'accuracy': 0.7, 'precision': 0.677697408077155, 'recall': 0.7, 'f1': 0.6812889812889813}
+2025-06-15 14:49:35,757 - SklearnModel - INFO - Evaluation metrics: {'accuracy': 0.7, 'precision': 0.677697408077155, 'recall': 0.7, 'f1': 0.6812889812889813}
+2025-06-15 14:49:35,757 - SklearnModel - INFO - Evaluation metrics: {'accuracy': 0.7, 'precision': 0.677697408077155, 'recall': 0.7, 'f1': 0.6812889812889813}
+2025-06-15 14:49:35,776 - SklearnModel - INFO - Training GradientBoostingClassifier
+2025-06-15 14:49:35,776 - SklearnModel - INFO - Training GradientBoostingClassifier
+2025-06-15 14:49:35,776 - SklearnModel - INFO - Training GradientBoostingClassifier
+2025-06-15 14:49:35,776 - SklearnModel - INFO - Training GradientBoostingClassifier
+2025-06-15 14:49:38,549 - SklearnModel - INFO - Training completed
+2025-06-15 14:49:38,549 - SklearnModel - INFO - Training completed
+2025-06-15 14:49:38,549 - SklearnModel - INFO - Training completed
+2025-06-15 14:49:38,549 - SklearnModel - INFO - Training completed
+2025-06-15 14:49:38,550 - SklearnModel - INFO - Evaluating model performance
+2025-06-15 14:49:38,550 - SklearnModel - INFO - Evaluating model performance
+2025-06-15 14:49:38,550 - SklearnModel - INFO - Evaluating model performance
+2025-06-15 14:49:38,550 - SklearnModel - INFO - Evaluating model performance
+2025-06-15 14:49:38,550 - SklearnModel - DEBUG - Making predictions
+2025-06-15 14:49:38,550 - SklearnModel - DEBUG - Making predictions
+2025-06-15 14:49:38,550 - SklearnModel - DEBUG - Making predictions
+2025-06-15 14:49:38,550 - SklearnModel - DEBUG - Making predictions
+2025-06-15 14:49:38,557 - SklearnModel - INFO - Evaluation metrics: {'accuracy': 0.675, 'precision': 0.6547142261159783, 'recall': 0.675, 'f1': 0.6610139033386929}
+2025-06-15 14:49:38,557 - SklearnModel - INFO - Evaluation metrics: {'accuracy': 0.675, 'precision': 0.6547142261159783, 'recall': 0.675, 'f1': 0.6610139033386929}
+2025-06-15 14:49:38,557 - SklearnModel - INFO - Evaluation metrics: {'accuracy': 0.675, 'precision': 0.6547142261159783, 'recall': 0.675, 'f1': 0.6610139033386929}
+2025-06-15 14:49:38,557 - SklearnModel - INFO - Evaluation metrics: {'accuracy': 0.675, 'precision': 0.6547142261159783, 'recall': 0.675, 'f1': 0.6610139033386929}
+2025-06-15 14:49:38,575 - SklearnModel - INFO - Training SVC
+2025-06-15 14:49:38,575 - SklearnModel - INFO - Training SVC
+2025-06-15 14:49:38,575 - SklearnModel - INFO - Training SVC
+2025-06-15 14:49:38,575 - SklearnModel - INFO - Training SVC
+2025-06-15 14:49:40,876 - SklearnModel - INFO - Training completed
+2025-06-15 14:49:40,876 - SklearnModel - INFO - Training completed
+2025-06-15 14:49:40,876 - SklearnModel - INFO - Training completed
+2025-06-15 14:49:40,876 - SklearnModel - INFO - Training completed
+2025-06-15 14:49:40,876 - SklearnModel - INFO - Evaluating model performance
+2025-06-15 14:49:40,876 - SklearnModel - INFO - Evaluating model performance
+2025-06-15 14:49:40,876 - SklearnModel - INFO - Evaluating model performance
+2025-06-15 14:49:40,876 - SklearnModel - INFO - Evaluating model performance
+2025-06-15 14:49:40,876 - SklearnModel - DEBUG - Making predictions
+2025-06-15 14:49:40,876 - SklearnModel - DEBUG - Making predictions
+2025-06-15 14:49:40,876 - SklearnModel - DEBUG - Making predictions
+2025-06-15 14:49:40,876 - SklearnModel - DEBUG - Making predictions
+2025-06-15 14:49:40,889 - SklearnModel - INFO - Evaluation metrics: {'accuracy': 0.71, 'precision': 0.684500354358611, 'recall': 0.71, 'f1': 0.681063596491228}
+2025-06-15 14:49:40,889 - SklearnModel - INFO - Evaluation metrics: {'accuracy': 0.71, 'precision': 0.684500354358611, 'recall': 0.71, 'f1': 0.681063596491228}
+2025-06-15 14:49:40,889 - SklearnModel - INFO - Evaluation metrics: {'accuracy': 0.71, 'precision': 0.684500354358611, 'recall': 0.71, 'f1': 0.681063596491228}
+2025-06-15 14:49:40,889 - SklearnModel - INFO - Evaluation metrics: {'accuracy': 0.71, 'precision': 0.684500354358611, 'recall': 0.71, 'f1': 0.681063596491228}

@@ -1,2 +1,0 @@
-2025-06-03 16:07:41,497 - DataIngestionFactory - INFO - Creating data ingestion instance for file: data/customer_churn_data.csv
-2025-06-03 16:07:41,497 - DataIngestionFactory - INFO - Creating CSV data ingestion instance

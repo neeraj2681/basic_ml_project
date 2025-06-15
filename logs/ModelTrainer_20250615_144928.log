@@ -1,0 +1,12 @@
+2025-06-15 14:49:28,145 - ModelTrainer - INFO - Initialized ModelTrainer with 4 models
+2025-06-15 14:49:28,168 - ModelTrainer - INFO - Starting model training and evaluation
+2025-06-15 14:49:28,170 - ModelTrainer - INFO - Split data into train (800 samples) and test (200 samples) sets
+2025-06-15 14:49:28,170 - ModelTrainer - INFO - 
+Training and evaluating logistic_regression
+2025-06-15 14:49:32,634 - ModelTrainer - INFO - New best model: logistic_regression with F1 score: 0.7084
+2025-06-15 14:49:32,634 - ModelTrainer - INFO - 
+Training and evaluating random_forest
+2025-06-15 14:49:35,776 - ModelTrainer - INFO - 
+Training and evaluating gradient_boosting
+2025-06-15 14:49:38,575 - ModelTrainer - INFO - 
+Training and evaluating svm

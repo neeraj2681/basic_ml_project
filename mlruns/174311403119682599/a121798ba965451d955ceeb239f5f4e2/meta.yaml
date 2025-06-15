@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/neeraj/basic_ml_project/mlruns/174311403119682599/a121798ba965451d955ceeb239f5f4e2/artifacts
+end_time: 1749978768779
+entry_point_name: ''
+experiment_id: '174311403119682599'
+lifecycle_stage: active
+run_id: a121798ba965451d955ceeb239f5f4e2
+run_name: peaceful-stag-586
+run_uuid: a121798ba965451d955ceeb239f5f4e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749978756937
+status: 3
+tags: []
+user_id: neeraj

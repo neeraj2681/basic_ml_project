@@ -3,7 +3,6 @@ import json
 import pandas as pd
 import numpy as np
 from data.sample_data_generator import generate_customer_data
-from features.data_preprocessing import StandardDataPreprocessor
 import logging
 
 # Configure logging
@@ -28,23 +27,15 @@ def test_model_serving():
     logger.info("Generating sample data for testing")
     test_data = generate_customer_data(n_samples=100)
     
-    # Initialize preprocessor
-    preprocessor = StandardDataPreprocessor()
-    
-    # Preprocess the data
-    logger.info("Preprocessing the data")
-    processed_data = preprocessor.preprocess(test_data)
-    
-    processed_data.to_csv('temp_processed_data.csv', index=False)
     # Remove target variable if it exists
-    if 'churn' in processed_data.columns:
-        processed_data = processed_data.drop('churn', axis=1)
+    if 'churn' in test_data.columns:
+        test_data = test_data.drop('churn', axis=1)
     
     # Convert to the format expected by MLflow serving
     data = {
         "dataframe_split": {
-            "columns": processed_data.columns.tolist(),
-            "data": processed_data.values.tolist()
+            "columns": test_data.columns.tolist(),
+            "data": test_data.values.tolist()
         }
     }
     
@@ -66,10 +57,13 @@ def test_model_serving():
     # Make prediction request
     logger.info("Making prediction request to the served model")
     url = "http://127.0.0.1:5010/invocations"
-    headers = {'Content-Type': 'application/json'}
+    headers = {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+    }
     
     try:
-        # First try to get probabilities
+        # Make prediction request with predict_proba parameter
         response = requests.post(
             url, 
             json=data, 

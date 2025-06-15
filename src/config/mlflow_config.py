@@ -1,0 +1,25 @@
+"""MLflow configuration settings."""
+
+MLFLOW_ENV = {
+    'channels': ['defaults', 'conda-forge'],
+    'dependencies': [
+        'python=3.10',
+        'pip',
+        {
+            'pip': [
+                'pandas>=2.0.0',
+                'numpy>=1.24.0',
+                'scikit-learn>=1.3.0',
+                'mlflow>=2.13.0',
+                'python-dotenv>=1.0.0',
+                'requests>=2.31.0',
+                'joblib>=1.3.0'
+            ]
+        }
+    ]
+}
+
+# MLflow experiment settings
+EXPERIMENT_NAME = "CustomerChurnPipeline"
+MODEL_NAME = "CustomerChurnModel"
+MODEL_PATH = "best_model" 
