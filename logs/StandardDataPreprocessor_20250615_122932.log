@@ -1,0 +1,142 @@
+2025-06-15 12:29:32,078 - StandardDataPreprocessor - INFO - Initializing StandardDataPreprocessor
+2025-06-15 12:29:32,078 - StandardDataPreprocessor - INFO - Starting data preprocessing
+2025-06-15 12:29:32,078 - StandardDataPreprocessor - INFO - Dropping customer_id column
+2025-06-15 12:29:32,079 - StandardDataPreprocessor - INFO - Handling missing values
+2025-06-15 12:29:32,079 - StandardDataPreprocessor - DEBUG - Handling missing values
+2025-06-15 12:29:32,080 - StandardDataPreprocessor - INFO - Encoding categorical variables
+2025-06-15 12:29:32,080 - StandardDataPreprocessor - DEBUG - Encoding categorical variables
+2025-06-15 12:29:32,080 - StandardDataPreprocessor - INFO - Encoding categorical column: contract_type
+2025-06-15 12:29:32,080 - StandardDataPreprocessor - INFO - Encoding categorical column: payment_method
+2025-06-15 12:29:32,080 - StandardDataPreprocessor - INFO - Encoding categorical column: paperless_billing
+2025-06-15 12:29:32,080 - StandardDataPreprocessor - INFO - Encoding categorical column: internet_service
+2025-06-15 12:29:32,081 - StandardDataPreprocessor - INFO - Encoding categorical column: online_security
+2025-06-15 12:29:32,081 - StandardDataPreprocessor - INFO - Encoding categorical column: online_backup
+2025-06-15 12:29:32,081 - StandardDataPreprocessor - INFO - Encoding categorical column: device_protection
+2025-06-15 12:29:32,081 - StandardDataPreprocessor - INFO - Encoding categorical column: tech_support
+2025-06-15 12:29:32,081 - StandardDataPreprocessor - INFO - Encoding categorical column: streaming_tv
+2025-06-15 12:29:32,081 - StandardDataPreprocessor - INFO - Encoding categorical column: streaming_movies
+2025-06-15 12:29:32,081 - StandardDataPreprocessor - INFO - Encoding target column: churn
+2025-06-15 12:29:32,081 - StandardDataPreprocessor - INFO - Scaling numerical variables
+2025-06-15 12:29:32,081 - StandardDataPreprocessor - DEBUG - Scaling numerical variables
+2025-06-15 12:29:32,082 - StandardDataPreprocessor - INFO - Scaling 13 numerical columns
+2025-06-15 12:29:32,084 - StandardDataPreprocessor - INFO - Preprocessing completed successfully
+2025-06-15 12:29:32,086 - StandardDataPreprocessor - INFO - Initializing StandardDataPreprocessor
+2025-06-15 12:29:32,086 - StandardDataPreprocessor - INFO - Initializing StandardDataPreprocessor
+2025-06-15 12:29:32,086 - StandardDataPreprocessor - INFO - Starting data preprocessing
+2025-06-15 12:29:32,086 - StandardDataPreprocessor - INFO - Starting data preprocessing
+2025-06-15 12:29:32,086 - StandardDataPreprocessor - INFO - Dropping customer_id column
+2025-06-15 12:29:32,086 - StandardDataPreprocessor - INFO - Dropping customer_id column
+2025-06-15 12:29:32,087 - StandardDataPreprocessor - INFO - Handling missing values
+2025-06-15 12:29:32,087 - StandardDataPreprocessor - INFO - Handling missing values
+2025-06-15 12:29:32,087 - StandardDataPreprocessor - DEBUG - Handling missing values
+2025-06-15 12:29:32,087 - StandardDataPreprocessor - DEBUG - Handling missing values
+2025-06-15 12:29:32,088 - StandardDataPreprocessor - INFO - Encoding categorical variables
+2025-06-15 12:29:32,088 - StandardDataPreprocessor - INFO - Encoding categorical variables
+2025-06-15 12:29:32,088 - StandardDataPreprocessor - DEBUG - Encoding categorical variables
+2025-06-15 12:29:32,088 - StandardDataPreprocessor - DEBUG - Encoding categorical variables
+2025-06-15 12:29:32,088 - StandardDataPreprocessor - INFO - Encoding categorical column: contract_type
+2025-06-15 12:29:32,088 - StandardDataPreprocessor - INFO - Encoding categorical column: contract_type
+2025-06-15 12:29:32,088 - StandardDataPreprocessor - INFO - Encoding categorical column: payment_method
+2025-06-15 12:29:32,088 - StandardDataPreprocessor - INFO - Encoding categorical column: payment_method
+2025-06-15 12:29:32,088 - StandardDataPreprocessor - INFO - Encoding categorical column: paperless_billing
+2025-06-15 12:29:32,088 - StandardDataPreprocessor - INFO - Encoding categorical column: paperless_billing
+2025-06-15 12:29:32,088 - StandardDataPreprocessor - INFO - Encoding categorical column: internet_service
+2025-06-15 12:29:32,088 - StandardDataPreprocessor - INFO - Encoding categorical column: internet_service
+2025-06-15 12:29:32,088 - StandardDataPreprocessor - INFO - Encoding categorical column: online_security
+2025-06-15 12:29:32,088 - StandardDataPreprocessor - INFO - Encoding categorical column: online_security
+2025-06-15 12:29:32,089 - StandardDataPreprocessor - INFO - Encoding categorical column: online_backup
+2025-06-15 12:29:32,089 - StandardDataPreprocessor - INFO - Encoding categorical column: online_backup
+2025-06-15 12:29:32,089 - StandardDataPreprocessor - INFO - Encoding categorical column: device_protection
+2025-06-15 12:29:32,089 - StandardDataPreprocessor - INFO - Encoding categorical column: device_protection
+2025-06-15 12:29:32,089 - StandardDataPreprocessor - INFO - Encoding categorical column: tech_support
+2025-06-15 12:29:32,089 - StandardDataPreprocessor - INFO - Encoding categorical column: tech_support
+2025-06-15 12:29:32,089 - StandardDataPreprocessor - INFO - Encoding categorical column: streaming_tv
+2025-06-15 12:29:32,089 - StandardDataPreprocessor - INFO - Encoding categorical column: streaming_tv
+2025-06-15 12:29:32,089 - StandardDataPreprocessor - INFO - Encoding categorical column: streaming_movies
+2025-06-15 12:29:32,089 - StandardDataPreprocessor - INFO - Encoding categorical column: streaming_movies
+2025-06-15 12:29:32,089 - StandardDataPreprocessor - INFO - Encoding target column: churn
+2025-06-15 12:29:32,089 - StandardDataPreprocessor - INFO - Encoding target column: churn
+2025-06-15 12:29:32,089 - StandardDataPreprocessor - INFO - Scaling numerical variables
+2025-06-15 12:29:32,089 - StandardDataPreprocessor - INFO - Scaling numerical variables
+2025-06-15 12:29:32,089 - StandardDataPreprocessor - DEBUG - Scaling numerical variables
+2025-06-15 12:29:32,089 - StandardDataPreprocessor - DEBUG - Scaling numerical variables
+2025-06-15 12:29:32,090 - StandardDataPreprocessor - INFO - Scaling 13 numerical columns
+2025-06-15 12:29:32,090 - StandardDataPreprocessor - INFO - Scaling 13 numerical columns
+2025-06-15 12:29:32,091 - StandardDataPreprocessor - INFO - Preprocessing completed successfully
+2025-06-15 12:29:32,091 - StandardDataPreprocessor - INFO - Preprocessing completed successfully
+2025-06-15 12:29:32,091 - StandardDataPreprocessor - INFO - Splitting features and target variable: churn
+2025-06-15 12:29:32,091 - StandardDataPreprocessor - INFO - Splitting features and target variable: churn
+2025-06-15 12:29:32,092 - StandardDataPreprocessor - INFO - Split complete: 5 features, 5 target values
+2025-06-15 12:29:32,092 - StandardDataPreprocessor - INFO - Split complete: 5 features, 5 target values
+2025-06-15 12:29:32,097 - StandardDataPreprocessor - INFO - Initializing StandardDataPreprocessor
+2025-06-15 12:29:32,097 - StandardDataPreprocessor - INFO - Initializing StandardDataPreprocessor
+2025-06-15 12:29:32,097 - StandardDataPreprocessor - INFO - Initializing StandardDataPreprocessor
+2025-06-15 12:29:32,097 - StandardDataPreprocessor - INFO - Starting data preprocessing
+2025-06-15 12:29:32,097 - StandardDataPreprocessor - INFO - Starting data preprocessing
+2025-06-15 12:29:32,097 - StandardDataPreprocessor - INFO - Starting data preprocessing
+2025-06-15 12:29:32,098 - StandardDataPreprocessor - INFO - Dropping customer_id column
+2025-06-15 12:29:32,098 - StandardDataPreprocessor - INFO - Dropping customer_id column
+2025-06-15 12:29:32,098 - StandardDataPreprocessor - INFO - Dropping customer_id column
+2025-06-15 12:29:32,098 - StandardDataPreprocessor - INFO - Handling missing values
+2025-06-15 12:29:32,098 - StandardDataPreprocessor - INFO - Handling missing values
+2025-06-15 12:29:32,098 - StandardDataPreprocessor - INFO - Handling missing values
+2025-06-15 12:29:32,099 - StandardDataPreprocessor - DEBUG - Handling missing values
+2025-06-15 12:29:32,099 - StandardDataPreprocessor - DEBUG - Handling missing values
+2025-06-15 12:29:32,099 - StandardDataPreprocessor - DEBUG - Handling missing values
+2025-06-15 12:29:32,100 - StandardDataPreprocessor - INFO - Encoding categorical variables
+2025-06-15 12:29:32,100 - StandardDataPreprocessor - INFO - Encoding categorical variables
+2025-06-15 12:29:32,100 - StandardDataPreprocessor - INFO - Encoding categorical variables
+2025-06-15 12:29:32,100 - StandardDataPreprocessor - DEBUG - Encoding categorical variables
+2025-06-15 12:29:32,100 - StandardDataPreprocessor - DEBUG - Encoding categorical variables
+2025-06-15 12:29:32,100 - StandardDataPreprocessor - DEBUG - Encoding categorical variables
+2025-06-15 12:29:32,100 - StandardDataPreprocessor - INFO - Encoding categorical column: contract_type
+2025-06-15 12:29:32,100 - StandardDataPreprocessor - INFO - Encoding categorical column: contract_type
+2025-06-15 12:29:32,100 - StandardDataPreprocessor - INFO - Encoding categorical column: contract_type
+2025-06-15 12:29:32,100 - StandardDataPreprocessor - INFO - Encoding categorical column: payment_method
+2025-06-15 12:29:32,100 - StandardDataPreprocessor - INFO - Encoding categorical column: payment_method
+2025-06-15 12:29:32,100 - StandardDataPreprocessor - INFO - Encoding categorical column: payment_method
+2025-06-15 12:29:32,100 - StandardDataPreprocessor - INFO - Encoding categorical column: paperless_billing
+2025-06-15 12:29:32,100 - StandardDataPreprocessor - INFO - Encoding categorical column: paperless_billing
+2025-06-15 12:29:32,100 - StandardDataPreprocessor - INFO - Encoding categorical column: paperless_billing
+2025-06-15 12:29:32,100 - StandardDataPreprocessor - INFO - Encoding categorical column: internet_service
+2025-06-15 12:29:32,100 - StandardDataPreprocessor - INFO - Encoding categorical column: internet_service
+2025-06-15 12:29:32,100 - StandardDataPreprocessor - INFO - Encoding categorical column: internet_service
+2025-06-15 12:29:32,101 - StandardDataPreprocessor - INFO - Encoding categorical column: online_security
+2025-06-15 12:29:32,101 - StandardDataPreprocessor - INFO - Encoding categorical column: online_security
+2025-06-15 12:29:32,101 - StandardDataPreprocessor - INFO - Encoding categorical column: online_security
+2025-06-15 12:29:32,101 - StandardDataPreprocessor - INFO - Encoding categorical column: online_backup
+2025-06-15 12:29:32,101 - StandardDataPreprocessor - INFO - Encoding categorical column: online_backup
+2025-06-15 12:29:32,101 - StandardDataPreprocessor - INFO - Encoding categorical column: online_backup
+2025-06-15 12:29:32,101 - StandardDataPreprocessor - INFO - Encoding categorical column: device_protection
+2025-06-15 12:29:32,101 - StandardDataPreprocessor - INFO - Encoding categorical column: device_protection
+2025-06-15 12:29:32,101 - StandardDataPreprocessor - INFO - Encoding categorical column: device_protection
+2025-06-15 12:29:32,101 - StandardDataPreprocessor - INFO - Encoding categorical column: tech_support
+2025-06-15 12:29:32,101 - StandardDataPreprocessor - INFO - Encoding categorical column: tech_support
+2025-06-15 12:29:32,101 - StandardDataPreprocessor - INFO - Encoding categorical column: tech_support
+2025-06-15 12:29:32,101 - StandardDataPreprocessor - INFO - Encoding categorical column: streaming_tv
+2025-06-15 12:29:32,101 - StandardDataPreprocessor - INFO - Encoding categorical column: streaming_tv
+2025-06-15 12:29:32,101 - StandardDataPreprocessor - INFO - Encoding categorical column: streaming_tv
+2025-06-15 12:29:32,101 - StandardDataPreprocessor - INFO - Encoding categorical column: streaming_movies
+2025-06-15 12:29:32,101 - StandardDataPreprocessor - INFO - Encoding categorical column: streaming_movies
+2025-06-15 12:29:32,101 - StandardDataPreprocessor - INFO - Encoding categorical column: streaming_movies
+2025-06-15 12:29:32,101 - StandardDataPreprocessor - INFO - Encoding target column: churn
+2025-06-15 12:29:32,101 - StandardDataPreprocessor - INFO - Encoding target column: churn
+2025-06-15 12:29:32,101 - StandardDataPreprocessor - INFO - Encoding target column: churn
+2025-06-15 12:29:32,102 - StandardDataPreprocessor - INFO - Scaling numerical variables
+2025-06-15 12:29:32,102 - StandardDataPreprocessor - INFO - Scaling numerical variables
+2025-06-15 12:29:32,102 - StandardDataPreprocessor - INFO - Scaling numerical variables
+2025-06-15 12:29:32,102 - StandardDataPreprocessor - DEBUG - Scaling numerical variables
+2025-06-15 12:29:32,102 - StandardDataPreprocessor - DEBUG - Scaling numerical variables
+2025-06-15 12:29:32,102 - StandardDataPreprocessor - DEBUG - Scaling numerical variables
+2025-06-15 12:29:32,102 - StandardDataPreprocessor - INFO - Scaling 13 numerical columns
+2025-06-15 12:29:32,102 - StandardDataPreprocessor - INFO - Scaling 13 numerical columns
+2025-06-15 12:29:32,102 - StandardDataPreprocessor - INFO - Scaling 13 numerical columns
+2025-06-15 12:29:32,104 - StandardDataPreprocessor - INFO - Preprocessing completed successfully
+2025-06-15 12:29:32,104 - StandardDataPreprocessor - INFO - Preprocessing completed successfully
+2025-06-15 12:29:32,104 - StandardDataPreprocessor - INFO - Preprocessing completed successfully
+2025-06-15 12:29:32,104 - StandardDataPreprocessor - INFO - Splitting features and target variable: churn
+2025-06-15 12:29:32,104 - StandardDataPreprocessor - INFO - Splitting features and target variable: churn
+2025-06-15 12:29:32,104 - StandardDataPreprocessor - INFO - Splitting features and target variable: churn
+2025-06-15 12:29:32,104 - StandardDataPreprocessor - INFO - Split complete: 5 features, 5 target values
+2025-06-15 12:29:32,104 - StandardDataPreprocessor - INFO - Split complete: 5 features, 5 target values
+2025-06-15 12:29:32,104 - StandardDataPreprocessor - INFO - Split complete: 5 features, 5 target values

@@ -51,6 +51,12 @@ class SklearnModel(Model):
         self.logger.debug("Making predictions")
         return self.model.predict(X)
     
+    def predict_proba(self, X: pd.DataFrame) -> np.ndarray:
+        """Make predictions."""
+        self.logger.debug("Making predictions")
+        return self.model.predict_proba(X)
+    
+
     def evaluate(self, X: pd.DataFrame, y: pd.Series) -> Dict[str, float]:
         """Evaluate the model."""
         self.logger.info("Evaluating model performance")

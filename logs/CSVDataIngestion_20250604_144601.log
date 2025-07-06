@@ -1,5 +1,0 @@
-2025-06-04 14:46:01,844 - CSVDataIngestion - INFO - Initializing CSV data ingestion for file: data/customer_churn_data.csv
-2025-06-04 14:46:01,846 - CSVDataIngestion - INFO - Attempting to load data from data/customer_churn_data.csv
-2025-06-04 14:46:01,851 - CSVDataIngestion - DEBUG - Starting data validation
-2025-06-04 14:46:01,852 - CSVDataIngestion - INFO - Data validation passed. Missing values: 0.52%
-2025-06-04 14:46:01,852 - CSVDataIngestion - INFO - Successfully loaded data with 1000 rows and 15 columns

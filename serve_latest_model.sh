@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Check if virtualenv is installed, install if missing
-if ! command -v virtualenv &> /dev/null; then
-    echo "virtualenv not found. Installing virtualenv..."
-    pip install virtualenv
-fi
+# if ! command -v virtualenv &> /dev/null; then
+#     echo "virtualenv not found. Installing virtualenv..."
+#     pip install virtualenv
+# fi
 
 # Activate virtual environment if needed
 source venv/bin/activate

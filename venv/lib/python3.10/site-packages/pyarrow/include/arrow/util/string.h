@@ -46,9 +46,7 @@ ARROW_EXPORT std::string HexEncode(std::string_view str);
 
 ARROW_EXPORT std::string Escape(std::string_view str);
 
-ARROW_EXPORT Status ParseHexValue(const char* hex_pair, uint8_t* out);
-
-ARROW_EXPORT Status ParseHexValues(std::string_view hex_string, uint8_t* out);
+ARROW_EXPORT Status ParseHexValue(const char* data, uint8_t* out);
 
 namespace internal {
 

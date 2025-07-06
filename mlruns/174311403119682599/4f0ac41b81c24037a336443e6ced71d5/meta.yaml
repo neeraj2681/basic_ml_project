@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/neeraj/basic_ml_project/mlruns/174311403119682599/4f0ac41b81c24037a336443e6ced71d5/artifacts
+end_time: 1749978721527
+entry_point_name: ''
+experiment_id: '174311403119682599'
+lifecycle_stage: active
+run_id: 4f0ac41b81c24037a336443e6ced71d5
+run_name: gradient_boosting
+run_uuid: 4f0ac41b81c24037a336443e6ced71d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749978721508
+status: 3
+tags: []
+user_id: neeraj

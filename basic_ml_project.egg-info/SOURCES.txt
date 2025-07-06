@@ -8,6 +8,7 @@ basic_ml_project.egg-info/top_level.txt
 src/__init__.py
 src/main.py
 src/serve_model.py
+src/serving_test.py
 src/test_served_model.py
 src/data/__init__.py
 src/data/data_ingestion.py
@@ -15,7 +16,9 @@ src/data/sample_data_generator.py
 src/features/__init__.py
 src/features/data_preprocessing.py
 src/models/__init__.py
+src/models/model_pipeline.py
 src/models/model_trainer.py
+src/models/model_wrapper.py
 src/utils/__init__.py
 src/utils/logger.py
 tests/__init__.py

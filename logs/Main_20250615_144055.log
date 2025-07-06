@@ -1,0 +1,47 @@
+2025-06-15 14:40:55,093 - Main - INFO - Starting ML pipeline (MLflow run: e6c6f00e2fea4d8582ca0041ff1cf4e0)
+2025-06-15 14:40:55,094 - Main - INFO - Generating customer churn dataset
+2025-06-15 14:40:55,112 - Main - INFO - Dataset saved to 'data/customer_churn_data.csv'
+2025-06-15 14:40:55,112 - Main - INFO - Initializing pipeline components
+2025-06-15 14:40:55,114 - Main - INFO - Loading and preprocessing data
+2025-06-15 14:40:55,136 - Main - INFO - Starting model training and evaluation
+2025-06-15 14:41:07,481 - Main - INFO - Model Evaluation Results:
+2025-06-15 14:41:07,481 - Main - INFO - 
+LOGISTIC_REGRESSION:
+2025-06-15 14:41:07,481 - Main - INFO - accuracy: 0.7300
+2025-06-15 14:41:07,481 - Main - INFO - precision: 0.7115
+2025-06-15 14:41:07,481 - Main - INFO - recall: 0.7300
+2025-06-15 14:41:07,481 - Main - INFO - f1: 0.7084
+2025-06-15 14:41:07,481 - Main - INFO - 
+RANDOM_FOREST:
+2025-06-15 14:41:07,481 - Main - INFO - accuracy: 0.7000
+2025-06-15 14:41:07,481 - Main - INFO - precision: 0.6777
+2025-06-15 14:41:07,481 - Main - INFO - recall: 0.7000
+2025-06-15 14:41:07,481 - Main - INFO - f1: 0.6813
+2025-06-15 14:41:07,481 - Main - INFO - 
+GRADIENT_BOOSTING:
+2025-06-15 14:41:07,481 - Main - INFO - accuracy: 0.6750
+2025-06-15 14:41:07,481 - Main - INFO - precision: 0.6547
+2025-06-15 14:41:07,481 - Main - INFO - recall: 0.6750
+2025-06-15 14:41:07,481 - Main - INFO - f1: 0.6610
+2025-06-15 14:41:07,482 - Main - INFO - 
+SVM:
+2025-06-15 14:41:07,482 - Main - INFO - accuracy: 0.7100
+2025-06-15 14:41:07,482 - Main - INFO - precision: 0.6845
+2025-06-15 14:41:07,482 - Main - INFO - recall: 0.7100
+2025-06-15 14:41:07,482 - Main - INFO - f1: 0.6811
+2025-06-15 14:41:07,482 - Main - INFO - Saving best model without complex wrappers
+2025-06-15 14:41:07,483 - Main - INFO - Best model saved to 'models/best_model.joblib'
+2025-06-15 14:41:07,483 - Main - INFO - Creating dependency-free preprocessor
+2025-06-15 14:41:07,486 - Main - INFO - Fixed preprocessor saved to 'models/preprocessor.joblib'
+2025-06-15 14:41:07,486 - Main - INFO - Testing saved model and preprocessor...
+2025-06-15 14:41:07,494 - Main - ERROR - Model testing failed: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- contract_type
+- device_protection
+- internet_service
+- online_backup
+- online_security
+- ...
+
+2025-06-15 14:41:07,496 - Main - WARNING - MLflow logging failed (non-critical): Unable to map 'object' type to MLflow DataType. object can be mapped iff all values have identical data type which is one of (string, (bytes or byterray),  int, float).
+2025-06-15 14:41:07,496 - Main - INFO - ML pipeline completed successfully

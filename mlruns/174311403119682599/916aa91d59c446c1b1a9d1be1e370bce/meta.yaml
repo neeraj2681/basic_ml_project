@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/neeraj/basic_ml_project/mlruns/174311403119682599/916aa91d59c446c1b1a9d1be1e370bce/artifacts
+end_time: 1749970770629
+entry_point_name: ''
+experiment_id: '174311403119682599'
+lifecycle_stage: active
+run_id: 916aa91d59c446c1b1a9d1be1e370bce
+run_name: unequaled-stoat-343
+run_uuid: 916aa91d59c446c1b1a9d1be1e370bce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749970759796
+status: 3
+tags: []
+user_id: neeraj

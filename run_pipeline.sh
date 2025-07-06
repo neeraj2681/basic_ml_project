@@ -23,7 +23,8 @@ pip install --upgrade pip
 
 # Install project dependencies
 echo -e "${BLUE}Installing project dependencies...${NC}"
-pip install -e .
+# pip install -e .
+pip install -r requirements.txt
 
 # Create necessary directories
 echo -e "${BLUE}Creating project directories...${NC}"

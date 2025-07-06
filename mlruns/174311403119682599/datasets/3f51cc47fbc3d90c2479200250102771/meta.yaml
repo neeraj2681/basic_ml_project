@@ -1,0 +1,13 @@
+digest: f7f1e17a
+name: dataset
+profile: '{"num_rows": 1, "num_elements": 13}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "tenure"}, {"type": "double",
+  "name": "monthly_charges"}, {"type": "double", "name": "total_charges"}, {"type":
+  "double", "name": "contract_type"}, {"type": "double", "name": "payment_method"},
+  {"type": "double", "name": "paperless_billing"}, {"type": "double", "name": "internet_service"},
+  {"type": "double", "name": "online_security"}, {"type": "double", "name": "online_backup"},
+  {"type": "double", "name": "device_protection"}, {"type": "double", "name": "tech_support"},
+  {"type": "double", "name": "streaming_tv"}, {"type": "double", "name": "streaming_movies"}]}'
+source: '{"tags": {"mlflow.user": "neeraj", "mlflow.source.name": "src/main.py", "mlflow.source.type":
+  "LOCAL", "mlflow.source.git.commit": "726e00503cdfd11b47de0bb1ddbb556e3f064558"}}'
+source_type: code
