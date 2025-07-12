@@ -59,7 +59,7 @@ jobs:
         with:
           registry-type: public
 
-      - name: Pull Docker image from ECR Public and run it
+      - name: Delete existing docker image and Pull Docker image from ECR Public and run it
         id: pull-image
         env:
           ECR_REGISTRY: ${{ steps.login-ecr-public.outputs.registry }}
@@ -67,7 +67,11 @@ jobs:
           IMAGE_TAG: latest
 
         run: |
+          echo "Deleting existing docker image"
+          docker rmi -f $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+          echo "Pulling new docker image from ECR Public"
           docker pull $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+          echo "Running docker image"
           docker run -d -p 8000:8000 -p 8501:8501 $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
           
 
