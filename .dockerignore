@@ -1,9 +1,9 @@
 # Data and model files
 data/
-models/
+# models/
 
 # MLflow tracking
-mlruns/
+# mlruns/
 
 # Logs
 logs/
