@@ -25,13 +25,13 @@ jobs:
         uses: aws-actions/amazon-ecr-login@v1
 
       - name: Build, tag and push Docker image to ECR Public
-        id: build image
+        id: build-image
         env: 
           ECR_REGISTRY: ${{ steps.login-ecr-public.outputs.public.ecr.aws/i2n7c7b4 }}
           ECR_REPOSITORY: ${{ secrets.ECR_REPOSITORY_NAME }}
           IMAGE_TAG: latest
 
-        run:
+        run: |
           docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
           echo "::set-output name=image_uri::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
