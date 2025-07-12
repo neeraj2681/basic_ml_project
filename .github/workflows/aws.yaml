@@ -23,12 +23,14 @@ jobs:
       - name: Login to ECR Public
         id: login-ecr-public
         uses: aws-actions/amazon-ecr-login@v1
+        with:
+          registry-type: public
         
 
       - name: Build, tag and push Docker image to ECR Public
         id: build-image
         env: 
-          ECR_REGISTRY: ${{ steps.login-ecr-public.outputs.public.ecr.aws }}
+          ECR_REGISTRY: ${{ steps.login-ecr-public.outputs.registry }}
           ECR_REPOSITORY: ${{ secrets.ECR_REPOSITORY_NAME }}
           IMAGE_TAG: latest
 
@@ -54,11 +56,13 @@ jobs:
       - name: Login to Amazon ECR
         id: login-ecr-public
         uses: aws-actions/amazon-ecr-login@v1
+        with:
+          registry-type: public
 
       - name: Pull Docker image from ECR Public
         id: pull-image
         env:
-          ECR_REGISTRY: ${{ steps.login-ecr-public.outputs.public.ecr.aws }}
+          ECR_REGISTRY: ${{ steps.login-ecr-public.outputs.registry }}
           ECR_REPOSITORY: ${{ secrets.ECR_REPOSITORY_NAME }}
           IMAGE_TAG: latest
 
