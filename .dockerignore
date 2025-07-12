@@ -1,0 +1,65 @@
+# Data and model files
+data/
+models/
+
+# MLflow tracking
+mlruns/
+
+# Logs
+logs/
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environment
+venv/
+env/
+.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Documentation
+*.md
+!README.md
+
+# Test files
+tests/
+
+# AWS deployment files
+aws/
+deploy_ec2.sh
+aws_deployment_guide.md
+AWSCLIV2.pkg
+
+# Build artifacts
+*.egg-info/
+build/
+dist/
+
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/ 
