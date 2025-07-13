@@ -67,10 +67,6 @@ jobs:
           IMAGE_TAG: latest
 
         run: |
-          echo "Stopping existing docker containers"
-          docker stop $(docker ps -q)
-          echo "Pruning docker system"
-          docker system prune -a --volumes
           echo "Pulling new docker image from ECR Public"
           docker pull $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
           echo "Running docker image"
