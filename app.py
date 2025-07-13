@@ -9,6 +9,7 @@ from typing import List, Dict, Any, Optional
 import os
 import sys
 import logging
+from prometheus_fastapi_instrumentator import Instrumentator
 
 # Add src directory to Python path for model loading
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
@@ -22,6 +23,8 @@ app = FastAPI(
     description="API for predicting customer churn using ML model",
     version="1.0.0"
 )
+
+Instrumentator().instrument(app).expose(app)
 
 # Global variables for model and preprocessor
 model: Optional[Any] = None
